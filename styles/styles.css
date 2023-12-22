@@ -19,16 +19,6 @@
     width: 100px;
 }
 
-.main {
-    background-image: url('../img/ICONOGRAFIA.png');
-    background-color: #cdffff;
-    background-position:  right bottom;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    padding: 10px;
-
-}
-
 .menu_izquierdo,
 .menu_derecho {
     display: flex;
@@ -43,6 +33,16 @@
 .menu_derecho a {
     text-decoration: none;
     color: #006691;
+}
+
+.main {
+    background-image: url('../img/ICONOGRAFIA.png');
+    background-color: #cdffff;
+    background-position:  right bottom;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding: 10px;
+
 }
 
 .seccion1, .seccion2 {
