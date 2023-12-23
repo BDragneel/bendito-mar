@@ -183,3 +183,15 @@
 .titulo_contacto {
     text-align: center;
 }
+
+.carruseles {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.texto_carrusel {
+    margin-top: 20px;
+    background-color: rgba(62, 151, 180, 0.89);
+}
