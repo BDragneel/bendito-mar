@@ -130,11 +130,14 @@
 }
 
 .mapa {
-    padding: 10px;
+    padding: 20px;
 }
 
 .texto_mapa {
     width: 600px;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     justify-content: space-around;
     background-color: rgba(62, 151, 180, 0.89);
 }
@@ -150,8 +153,11 @@
 }
 
 .carta_item {
+    width: 400px;
+    height: auto;
     padding: 20px;
     background-color: rgba(62, 151, 180, 0.89);
+
 }
 
 .item {
@@ -185,13 +191,15 @@
 }
 
 .carrusel1 {
+    margin-top: 10px;
     width: 400px;
 
 }
 
 .texto_carrusel {
     width: 400px;
-    margin-top: 20px;
+    margin-top:10px;
+    margin-bottom: 10px;
     padding: 10px;
     background-color: rgba(62, 151, 180, 0.89);
 }
