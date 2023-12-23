@@ -9,10 +9,23 @@
 
 .header {
     background-color: #94e7ff;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.navbar {
     display: flex;
     justify-content: space-around;
+    margin: 20px;
+}
+
+.navbar_izquierdo, .navbar_derecho {
+    display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
+    justify-content: left;
 }
 
 .logo {
@@ -22,15 +35,16 @@
 .menu_izquierdo,
 .menu_derecho {
     display: flex;
+    flex-wrap: nowrap;
     list-style-type: none;
     gap: 20px;
-    align-items: center;
-    height: 100%;
-    padding: 10px;
 }
 
 .menu_izquierdo a,
 .menu_derecho a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     text-decoration: none;
     color: #006691;
 }
@@ -42,7 +56,6 @@
     background-repeat: no-repeat;
     background-size: 50%;
     padding: 10px;
-
 }
 
 .section1, .section2 {
@@ -79,27 +92,68 @@
 }
 
 .texto1, .texto2, .texto3 {
+    margin-top: 10px;
     padding: 10px;
     max-width: 400px;
     text-align: justify;
+    background-color: rgba(62, 151, 180, 0.89);
 }
 
 .texto4, .texto5, .texto6 {
+    margin-top: 10px;
     padding: 10px;
     max-width: 400px;
     text-align: justify;
+    background-color: rgba(62, 151, 180, 0.89);
 }
 
 .footer {
     background-color: #94e7ff;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    
+    padding: 10px;
+    height: 100%;
 }
 
 .info {
     border-style: none;
     width: 180px;
     text-align: center;
+    margin: 10px;
 }
 
+.columna_mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapa {
+    padding: 10px;
+}
+
+.texto_mapa {
+    width: 600px;
+    justify-content: space-around;
+    background-color: rgba(62, 151, 180, 0.89);
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.columna1, .columna2, .columna3 {
+    margin: 20px;
+}
+
+.carta_item {
+    padding: 20px;
+    background-color: rgba(62, 151, 180, 0.89);
+}
+
+.item {
+    list-style: none;
+}
