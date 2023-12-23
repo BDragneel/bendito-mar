@@ -55,7 +55,7 @@
     background-position:  right bottom;
     background-repeat: no-repeat;
     background-size: 50%;
-    padding: 10px;
+    padding: 20px;
 }
 
 .section1, .section2 {
@@ -156,4 +156,30 @@
 
 .item {
     list-style: none;
+}
+
+.contactos {
+    display: grid;
+    justify-items: center;
+}
+
+.whatsapp {
+    width: 368px;
+    height: 368px;
+    margin: 20px;
+    border: 5px solid green;
+    background-image: url("../img/contacto1.png");
+    
+}
+
+.correo {
+    width: 368px;
+    height: 368px;
+    margin: 20px;
+    border: 5px solid rgb(180, 19, 19);
+    background-image: url("../img/contacto2.png");
+}
+
+.titulo_contacto {
+    text-align: center;
 }
