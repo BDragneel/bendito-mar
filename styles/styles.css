@@ -196,12 +196,6 @@
 .columnas_carrusel {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.carrusel1, .carrusel2 {
-    margin-top: 10px;
-    width: 400px;
 }
 
 .container1, .container2{
@@ -217,99 +211,96 @@
 }
 
 @media (min-width: 1024px) {
-    .main {
-      background-size: 50%;
-    }
-  
-    .section1, .section2 {
-      flex-direction: row;
-    }
-  
-    .img_1, .img_2, .img_3, .img_4, .img_5, .img_6 {
-      max-width: 400px;
-    }
-  
-    .texto1, .texto2, .texto3, .texto4, .texto5, .texto6 {
-      max-width: 400px;
-    }
-  
-    .columnas {
-      flex-direction: row;
-    }
-  
-    .columna1, .columna2, .columna3 {
-      margin: 20px;
-    }
-  
-    .carta_item {
-      width: 400px;
-    }
-  
-    .contactos {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  
-    .whatsapp, .correo {
-      width: 368px;
-      height: 368px;
-      margin: 20px;
-    }
-  
-    .carrusel1, .carrusel2 {
-      width: 400px;
-    }
-  
-    .texto_carrusel {
-      width: 400px;
-    }
+  .main {
+    background-size: 50%;
   }
-  
-  @media (max-width: 1023px) {
-    .main {
-      background-size: 100%;
-    }
-  
-    .section1, .section2 {
-      flex-direction: column;
-    }
-  
-    .img_1, .img_2, .img_3, .img_4, .img_5, .img_6 {
-      max-width: 100%;
-    }
-  
-    .texto1, .texto2, .texto3, .texto4, .texto5, .texto6 {
-      max-width: 100%;
-    }
-  
-    .columnas {
-      flex-direction: column;
-    }
-  
-    .columna1, .columna2, .columna3 {
+
+  .section1, .section2 {
+    flex-direction: row;
+  }
+
+  .img_1, .img_2, .img_3, .img_4, .img_5, .img_6 {
+    max-width: 400px;
+  }
+
+  .texto1, .texto2, .texto3, .texto4, .texto5, .texto6 {
+    max-width: 400px;
+  }
+
+  .columnas {
+    flex-direction: row;
+  }
+
+  .columna1, .columna2, .columna3 {
+    margin: 20px;
+  }
+
+  .carta_item {
+    width: 400px;
+  }
+
+  .contactos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .whatsapp, .correo {
+    width: 368px;
+    height: 368px;
+    margin: 20px;
+  }
+
+  .carrusel1, .carrusel2 {
+    width: 400px;
+  }
+
+  .texto_carrusel {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .main {
+    background-size: 100%;
+  }
+
+  .section1, .section2 {
+    flex-direction: column;
+  }
+
+  .img_1, .img_2, .img_3, .img_4, .img_5, .img_6 {
+    max-width: 100%;
+  }
+
+  .texto1, .texto2, .texto3, .texto4, .texto5, .texto6 {
+    max-width: 100%;
+  }
+
+  .columnas {
+    flex-direction: column;
+  }
+
+  .columna1, .columna2, .columna3 {
+    margin: 10px;
+  }
+
+  .carta_item {
+    width: 100%;
+  }
+
+  .contactos {
+    grid-template-columns: 1fr;
+  }
+
+  .whatsapp, .correo {
+      max-width: 400px;
       margin: 10px;
     }
-  
-    .carta_item {
-      width: 100%;
-    }
-  
-    .contactos {
-      grid-template-columns: 1fr;
-    }
-  
-    .whatsapp, .correo {
-        width: 100%;
-        height: auto;
-        max-width: 200px;
-        margin: 10px;
-      }
-  
-    .carrusel1, .carrusel2 {
-      width: 100%;
-    }
-  
-    .texto_carrusel {
-      width: 100%;
-    }
+
+  .carrusel1, .carrusel2 {
+    width: 100%;
   }
-  
+
+  .texto_carrusel {
+    width: 100%;
+  }
+}
