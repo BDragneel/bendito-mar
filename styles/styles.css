@@ -193,10 +193,19 @@
     text-align: center;
 }
 
-.carrusel1 {
+.columnas_carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrusel1, .carrusel2 {
     margin-top: 10px;
     width: 400px;
+}
 
+.container1, .container2{
+  padding: 50px;
 }
 
 .texto_carrusel {
@@ -246,7 +255,7 @@
       margin: 20px;
     }
   
-    .carrusel1 {
+    .carrusel1, .carrusel2 {
       width: 400px;
     }
   
@@ -295,7 +304,7 @@
         margin: 10px;
       }
   
-    .carrusel1 {
+    .carrusel1, .carrusel2 {
       width: 100%;
     }
   
