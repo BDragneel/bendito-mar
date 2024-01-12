@@ -1,0 +1,16 @@
+.footer {
+    background-color: $colorHeadFooter;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 10px;
+    height: 100%;
+
+    .info {
+    border-style: none;
+    width: 180px;
+    text-align: center;
+    margin: 10px;
+    color: $colorTextoFooter;
+    }
+}

@@ -1,0 +1,41 @@
+.header {
+    background-color: $colorHeadFooter;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+
+      .navbar_izquierdo, .navbar_derecho {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        justify-content: left;
+
+        .menu_izquierdo,
+        .menu_derecho {
+            display: flex;
+            flex-wrap: nowrap;
+            list-style-type: none;
+            gap: 20px;
+        }
+
+        .menu_izquierdo a,
+        .menu_derecho a {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            text-decoration: none;
+            color: $colorNab;
+        }
+    }
+    
+    .logo {
+      width: 100px;
+    }
+  }
+}
