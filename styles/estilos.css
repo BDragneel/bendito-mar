@@ -45,6 +45,17 @@
   width: 100px;
 }
 
+.logo {
+  animation: rotate-center 7s ease-in-out 0.5s infinite both;
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .main {
   background-image: url("../img/ICONOGRAFIA.png");
   background-color: #cdffff;
@@ -66,6 +77,7 @@
   flex-direction: column;
   max-width: 400px;
   margin: 10px;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .section1 .img_1 .img_i1, .section1 .img_1 .img_i2, .section1 .img_1 .img_i3, .section1 .img_2 .img_i1, .section1 .img_2 .img_i2, .section1 .img_2 .img_i3, .section1 .img_3 .img_i1, .section1 .img_3 .img_i2, .section1 .img_3 .img_i3, .section2 .img_1 .img_i1, .section2 .img_1 .img_i2, .section2 .img_1 .img_i3, .section2 .img_2 .img_i1, .section2 .img_2 .img_i2, .section2 .img_2 .img_i3, .section2 .img_3 .img_i1, .section2 .img_3 .img_i2, .section2 .img_3 .img_i3 {
   width: 100%;
@@ -84,6 +96,7 @@
   flex-direction: column;
   max-width: 400px;
   margin: 10px;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .section1 .img_4 .img_i4, .section1 .img_4 .img_i5, .section1 .img_4 .img_i6, .section1 .img_5 .img_i4, .section1 .img_5 .img_i5, .section1 .img_5 .img_i6, .section1 .img_6 .img_i4, .section1 .img_6 .img_i5, .section1 .img_6 .img_i6, .section2 .img_4 .img_i4, .section2 .img_4 .img_i5, .section2 .img_4 .img_i6, .section2 .img_5 .img_i4, .section2 .img_5 .img_i5, .section2 .img_5 .img_i6, .section2 .img_6 .img_i4, .section2 .img_6 .img_i5, .section2 .img_6 .img_i6 {
   width: 100%;
@@ -105,6 +118,7 @@
 }
 .columna_mapa .mapa {
   padding: 20px;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .columna_mapa .texto_mapa {
   width: 600px;
@@ -113,6 +127,7 @@
   margin-bottom: 20px;
   justify-content: space-around;
   background-color: rgba(62, 151, 180, 0.8901960784);
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .columnas {
@@ -123,6 +138,7 @@
 
 .columna1, .columna2, .columna3 {
   margin: 20px;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .columna1 .carta_item, .columna2 .carta_item, .columna3 .carta_item {
   width: 400px;
@@ -145,6 +161,7 @@
   margin: 20px;
   border: 5px solid #008000;
   background-image: url("../img/contacto1.png");
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .correo {
@@ -153,6 +170,7 @@
   margin: 20px;
   border: 5px solid #b41313;
   background-image: url("../img/contacto2.png");
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .titulo_contacto {
@@ -166,6 +184,7 @@
 
 .container1, .container2 {
   padding: 50px;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 .texto_carrusel {
@@ -247,6 +266,14 @@
   }
   .texto_carrusel {
     width: 100%;
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 .footer {

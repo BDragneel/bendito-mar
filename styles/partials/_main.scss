@@ -13,12 +13,15 @@
     flex-direction: row;
     justify-content: center;
     padding: 30px;
+    
 
     .img_1, .img_2, .img_3 {
     display: flex;
     flex-direction: column;
     max-width: 400px;
     margin: 10px;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
     .img_i1, .img_i2, .img_i3 {
     width: 100%;
@@ -40,6 +43,8 @@
     flex-direction: column;
     max-width: 400px;
     margin: 10px;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
     .img_i4, .img_i5, .img_i6 {
     width: 100%;
@@ -64,6 +69,8 @@
 
     .mapa {
     padding: 20px;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }
 
 .texto_mapa {
@@ -73,6 +80,8 @@
     margin-bottom: 20px;
     justify-content: space-around;
     background-color: $colorTexto;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }
 }
 
@@ -84,6 +93,8 @@
 
 .columna1, .columna2, .columna3 {
     margin: 20px;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
     .carta_item {
     width: 400px;
@@ -108,7 +119,8 @@
     margin: 20px;
     border: 5px solid $colorWsp;
     background-image: url("../img/contacto1.png");
-    
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .correo {
@@ -117,6 +129,8 @@
     margin: 20px;
     border: 5px solid $colorCorreo;
     background-image: url("../img/contacto2.png");
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 
@@ -132,6 +146,8 @@
 
 .container1, .container2{
   padding: 50px;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .texto_carrusel {
@@ -236,3 +252,25 @@
       width: 100%;
     }
   }
+
+  @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
