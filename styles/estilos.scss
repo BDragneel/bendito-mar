@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;500;700;900&display=swap');
 
+$colorFondo: #cdffff;
+$colorHeadFooter: #94e7ff;
+$colorTexto: #3e97b4e3;
+$colorNab: #006691 ;
+$colorTextoFooter: #000000;
+$colorWsp: #008000;
+$colorCorreo: #b41313;
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +18,7 @@
 }
 
 .header {
-    background-color: #94e7ff;
+    background-color: $colorHeadFooter;
     padding: 10px;
     display: flex;
     flex-wrap: nowrap;
@@ -39,7 +49,7 @@
             flex-wrap: wrap;
             align-items: center;
             text-decoration: none;
-            color: #006691;
+            color: $colorNab;
         }
     }
     
@@ -51,7 +61,7 @@
 
 .main {
     background-image: url('../img/ICONOGRAFIA.png');
-    background-color: #cdffff;
+    background-color: $colorfondo;
     background-position:  right bottom;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -82,7 +92,7 @@
     padding: 10px;
     max-width: 400px;
     text-align: justify;
-    background-color: rgba(62, 151, 180, 0.89);
+    background-color: $colorTexto;
     }
     }
 
@@ -103,13 +113,13 @@
     padding: 10px;
     max-width: 400px;
     text-align: justify;
-    background-color: rgba(62, 151, 180, 0.89);
+    background-color: $colorTexto;
     }
     }
 }
 
 .footer {
-    background-color: #94e7ff;
+    background-color: $colorHeadFooter;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -121,6 +131,7 @@
     width: 180px;
     text-align: center;
     margin: 10px;
+    color: $colorTextoFooter;
     }
 }
 
@@ -139,7 +150,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: space-around;
-    background-color: rgba(62, 151, 180, 0.89);
+    background-color: $colorTexto;
     }
 }
 
@@ -156,7 +167,7 @@
     width: 400px;
     height: auto;
     padding: 20px;
-    background-color: rgba(62, 151, 180, 0.89);
+    background-color: $colorTexto;
 
     .item {
     list-style: none;
@@ -175,7 +186,7 @@
     width: 368px;
     height: 368px;
     margin: 20px;
-    border: 5px solid green;
+    border: 5px solid $colorWsp;
     background-image: url("../img/contacto1.png");
     
 }
@@ -184,7 +195,7 @@
     width: 368px;
     height: 368px;
     margin: 20px;
-    border: 5px solid rgb(180, 19, 19);
+    border: 5px solid $colorCorreo;
     background-image: url("../img/contacto2.png");
 }
 
@@ -208,7 +219,7 @@
     margin-top:10px;
     margin-bottom: 10px;
     padding: 10px;
-    background-color: rgba(62, 151, 180, 0.89);
+    background-color: $colorTexto;
 }
 
 @media (min-width: 1024px) {
